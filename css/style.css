@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 5393px;
+    font-family: "Poppins", sans-serif;
+    background: #FAF4F2;
+}
+
+/* -------------------------- header --------------------------*/
+
+.profile_info{
+    display: flex;
+    flex-direction: row;
+    gap: 167px;
+    margin: 112px 0 0 182px;
+}
+
+.text_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_info h2{
+    color: #222;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 7px;
+}
+
+.text_info p{
+    width: 509px;
+    height: 144px;
+    flex-shrink: 0;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+
+.text_info img{
+    width: 240px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-bottom: 25px;
+}
+
+.buttons_for_more_info{
+    display: flex;
+    gap: 30px;
+}
+
+.send_request{
+    width: 151px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF2950;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.download_cv {
+    width: 153px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    outline: none;
+    box-shadow: none;
+    color: rgba(34, 34, 34, 0.50);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.profile_picture_rounded{
+    width: 406px;
+    height: 406px;
+    border-radius: 50%;
+    background-image: url("../img/man.png");
+}
+
+/* ------------------------ help info ------------------------*/
+
+.help_info{
+    display: flex;
+    justify-content: center;
+}
+
+.main_info_section{
+    margin-top: 125px;
+    display: flex;
+    gap:32px;
+    width: 1140px;
+    height: 519px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #FF7315;
+}
+
+.main_info_section img{
+    width: 430px;
+    height: 329px;
+    flex-shrink: 0;
+    margin: 93px 0 0 32px;
+}
+
+.main_info_text{
+    display: flex;
+    padding-top: 62px;
+    flex-direction: column;
+}
+
+.main_info_text h2{
+    color: #F9F9F9;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.main_info_text p{
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: 16px;
+}
+
+.main_question{
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-top: 125px;
+}
+
+/* --------------------- main reasons -----------------------*/
+
+.main_reasons{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 60px;
+}
+
+.reason{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.background_ellipse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 34, 0.10);
+}
+
+.reason_image_1{
+    width: 51px;
+    height: 51.052px;
+    flex-shrink: 0;
+}
+
+.reason_image_2{
+    width: 44.981px;
+    height: 49px;
+}
+
+.reason_image_3{
+    width: 69px;
+    height: 40.351px;
+}
+
+.reason_image_4{
+    width: 50px;
+    height: 47.754px;
+    flex-shrink: 0;
+}
+
+.reason h2{
+    margin-top: 51px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.reason p{
+    margin-top: 12px;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* --------------------- main portfolio -----------------------*/
+
+.portfolio_text {
+    margin: 152px 0 0 150px;
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.main_portfolio {
+    display: flex;
+    justify-content: center;
+    margin: 64px 0 0 231px;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 980px;
+}
+
+.main_portfolio img{
+    width: 310px;
+    height: 300px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* --------------------- benefits -----------------------*/
+
+.benefits{
+    width: 1440px;
+    height: 643px;
+    margin-top: 125px;
+    flex-shrink: 0;
+    background: #FF7315;
+}
+
+.benefits_list {
+    display: flex;
+    justify-content: center;
+    gap:82px;
+}
+
+.element_benefit{
+    margin-top: 111px;
+    width: 529px;
+    height: 179px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+
+.benefits h2{
+    margin-top: 48px;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.benefits p{
+    color: #222;
+    padding: 24px 0 0 55px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* --------------------- price plans ----------------------*/
+
+.price_plan_text{
+    margin-top: 125px;
+    text-align: center;
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.price_plans{
+    margin: 64px 0 0 150px;
+    display: flex;
+    width: 335px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    gap: 67px;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+}
+
+.plan_name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+}
+
+.price_per_hour{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+
+.price_per_hour h2{
+    color: #2B2B2B;
+    margin-top: 36px;
+    margin-bottom: 13px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+}
+
+.price_per_hour p{
+    margin-top: 47px;
+    color: #777777;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
+.price_plan_element{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.plan_point{
+    display: flex;
+    margin: 16px 0 0 46px;
+    gap: 16.11px;
+}
+
+.fitch_of{
+    color: #707070;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.fitch_on{
+    color: #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+/* --------------------- email contact ----------------------*/
+
+.contacts{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 224px;
+    flex-shrink: 0;
+    margin-left: 165px;
+    border-radius: 25px;
+    background: #FF7315;
+}
+
+.contact_section{
+    display: flex;
+    flex-direction: row;
+    gap: 333px;
+    width: 935px;
+}
+
+.contact_section h2{
+    color: #F9F9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.contact_section button{
+    width: 259px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F9F9F9;
+    margin-top: 27px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* --------------------- blog ----------------------*/
+
+.blog_header{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-top: 125px;
+    margin-left: 150px;
+}
+
+.blog_units{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 48px;
+}
+
+.blog_element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 364px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.blog_element img{
+    width: 246.197px;
+    height: 191.544px;
+    flex-shrink: 0;
+    margin-top: 7.02px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog_element h2{
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 24.1px;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+}
+
+.blog_element p{
+    color: rgba(34, 34, 34, 0.50);
+    margin-top: 12px;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+/* --------------------- footer ----------------------*/
+
+.footer{
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 170px;
+    flex-shrink: 0;
+    background: #F1F1F1;
+}
+
+.footer p{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

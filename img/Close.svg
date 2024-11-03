@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="25" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clip0_3227_29">
+   <rect fill="white" height="24" id="svg_1" width="24.89"/>
+  </clipPath>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g clip-path="url(#clip0_3227_29)" id="Icons/Close">
+   <path d="m12.44,10.59l5.14,-4.95l1.46,1.41l-5.13,4.95l5.13,4.95l-1.46,1.41l-5.14,-4.95l-5.13,4.95l-1.47,-1.41l5.14,-4.95l-5.14,-4.95l1.47,-1.41l5.13,4.95z" fill="#bfbfbf" id="Vector"/>
+  </g>
+ </g>
+</svg>
